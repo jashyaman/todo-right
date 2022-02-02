@@ -24,7 +24,7 @@ document.getElementById("dataButton").onclick = function() {
         }
         document.getElementById("table1").innerHTML = html;
       }
-      xhttp.open("GET", "http://localhost:3000/data");
+      xhttp.open("GET", "https://todo-right.herokuapp.com/data");
       xhttp.send();
     alert("Loading data");
 }
